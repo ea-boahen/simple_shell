@@ -9,8 +9,8 @@ This is a simple UNIX command interpreter based on bash and Sh.
 
 ### Invocation
 
-Usage: **GIGBAMSsh** 
-GIGBAMSsh is started with the standard input connected to the terminal. To start, compile all .c located in this repository by using this command: 
+Usage: **GIGBAMSsh**
+GIGBAMSsh is started with the standard input connected to the terminal. To start, compile all .c located in this repository by using this command:
 ```
 gcc -Wall -Werror -Wextra -pedantic *.c -o GIGBAMSsh
 ./GIGBAMSsh
@@ -87,7 +87,7 @@ After receiving a command, **GIGBAMSsh** tokenizes it into words using `" "` as 
 2. If the first character of the command is none of a slash (`\`), dot (`.`), nor builtin, **GIGBAMSsh** searches each element of the **PATH** environmental variable for a directory containing an executable file by that name.
 3. If the first character of the command is a slash (`\`) or dot (`.`) or either of the above searches was successful, the shell executes the named program with any remaining given arguments in a separate execution environment.
 
-### Exit Status 
+### Exit Status
 
 **GIGBAMSsh** returns the exit status of the last command executed, with zero indicating success and non-zero indicating failure.
 If a command is not found, the return status is 127; if a command is found but is not executable, the return status is 126.
