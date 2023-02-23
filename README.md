@@ -262,8 +262,8 @@ $
 
 ## Authors & Copyrights
 
-* William Yaw Okyere Dickson <[williamsHack](https://github.com/williamsHack)>
-* Maryann Jattoh <[Maryannjattoh](https://github.com/Maryannjattoh>
+* Enoch Amankwah Boahen <[ea-boahen](https://github.com/ea-boahen)>
+* Aniela Andoh <[AnielaAndoh](https://github.com/AnielaAndoh)>
 
 ## More information
 
